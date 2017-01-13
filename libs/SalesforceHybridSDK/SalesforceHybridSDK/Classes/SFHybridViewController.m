@@ -174,7 +174,7 @@ static NSString * const kSFAppFeatureUsesUIWebView = @"WV";
 
 - (id) initWithConfig:(SFHybridViewConfig *) viewConfig
 {
-    return [self initWithConfig:viewConfig useUIWebView:NO];
+    return [self initWithConfig:viewConfig useUIWebView:YES];
 }
 
 - (id) initWithConfig:(SFHybridViewConfig *) viewConfig useUIWebView:(BOOL) useUIWebView
